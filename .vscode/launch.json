@@ -1,0 +1,189 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MaxSumSubarray",
+            "request": "launch",
+            "mainClass": "leeteasy.MaxSumSubarray",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "LonelyInt",
+            "request": "launch",
+            "mainClass": "hackerrankprep.LonelyInt",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "MatchingString",
+            "request": "launch",
+            "mainClass": "hackerrankprep.MatchingString",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "FizzBuzz",
+            "request": "launch",
+            "mainClass": "hackerrankprep.FizzBuzz",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "TimeConeversion",
+            "request": "launch",
+            "mainClass": "hackerrankprep.TimeConeversion",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "MinMax",
+            "request": "launch",
+            "mainClass": "hackerrankprep.MinMax",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "ArrayRatio",
+            "request": "launch",
+            "mainClass": "hackerrankprep.ArrayRatio",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Pattern9",
+            "request": "launch",
+            "mainClass": "pattern.Pattern9",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Pattern8",
+            "request": "launch",
+            "mainClass": "pattern.Pattern8",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Pattern7",
+            "request": "launch",
+            "mainClass": "pattern.Pattern7",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "TransposeMatrix",
+            "request": "launch",
+            "mainClass": "leeteasy.TransposeMatrix",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Pattern6",
+            "request": "launch",
+            "mainClass": "pattern.Pattern6",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "TransposeMatrix",
+            "request": "launch",
+            "mainClass": "TransposeMatrix",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1",
+            "request": "launch",
+            "mainClass": "pattern.Pattern1",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Pattern2",
+            "request": "launch",
+            "mainClass": "pattern.Pattern2",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Pattern3",
+            "request": "launch",
+            "mainClass": "pattern.Pattern3",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Pattern4",
+            "request": "launch",
+            "mainClass": "pattern.Pattern4",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Pattern5",
+            "request": "launch",
+            "mainClass": "pattern.Pattern5",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Ap",
+            "request": "launch",
+            "mainClass": "start1.Ap",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "start1.HelloWorld",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Loop",
+            "request": "launch",
+            "mainClass": "start1.Loop",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "PrintEvenOdd",
+            "request": "launch",
+            "mainClass": "start1.PrintEvenOdd",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "start1.Sum",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
+            "name": "Tables",
+            "request": "launch",
+            "mainClass": "start1.Tables",
+            "projectName": "JAAVA_da477e7c"
+        }
+    ]
+}
