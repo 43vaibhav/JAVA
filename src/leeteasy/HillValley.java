@@ -18,6 +18,6 @@ public class HillValley {
                 cout++;
             }
         }
-        System.out.print(hill+valley);
+        System.out.print(cout);
     }
 }
