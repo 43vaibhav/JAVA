@@ -2,8 +2,8 @@ package start1;
 import java.util.Scanner;
 public class Ap {
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
+        try(Scanner sc = new Scanner(System.in)){
+            int a = sc.nextInt();
         int d = sc.nextInt();
         int n = sc.nextInt() ;
         /*a = 3
@@ -27,7 +27,9 @@ public class Ap {
             x += d1;
 
         }
-        sc.close();
+        
+        }
+        
     }
 
 }

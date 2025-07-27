@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ap",
+            "request": "launch",
+            "mainClass": "start1.Ap",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Switchcases",
+            "request": "launch",
+            "mainClass": "start1.Switchcases",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Switch_cases",
+            "request": "launch",
+            "mainClass": "start1.Switch_cases",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
             "name": "PerfectNumber",
             "request": "launch",
             "mainClass": "leeteasy.PerfectNumber",
