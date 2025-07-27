@@ -14,7 +14,7 @@ public class HillValley {
             if(j>= nums.length) {
                 break;
             }
-            if(nums[i] > nums[j] && nums[i] > nums[j]) || nums[i] < nums[j] && nums[i] < nums[j] ) {
+            if(nums[i] > nums[i-1] && nums[i] > nums[j] || nums[i] < nums[i-1] && nums[i] < nums[j] ) {
                 cout++;
             }
         }
