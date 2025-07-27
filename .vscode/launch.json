@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PerfectNumber",
+            "request": "launch",
+            "mainClass": "leeteasy.PerfectNumber",
+            "projectName": "JAAVA_da477e7c"
+        },
+        {
+            "type": "java",
             "name": "MaxSumSubarray",
             "request": "launch",
             "mainClass": "leeteasy.MaxSumSubarray",
