@@ -2,18 +2,22 @@ package leeteasy;
 public class HillValley {
     public static void main(String[] args) {
         int[] nums = {2,4,1,1,6,5};
-        int hill=0;
-        int valley=0;
-        for(int i = 1;i<nums.length - 1;i++){   
-            if(nums[i] > nums[i-1] && nums[i] > nums[i-1]){
-                hill++;
+        int cout = 0;
+        for(int i = 1;i<nums.length - 1;i++){
+            if(nums[i] == nums[i-1] {
+                continue;
             }
-            else if(nums[i]< nums[i-1]&& nums[i] < nums[i+1] ){
-                valley++;
+            int j= i +1;
+            while(j< nums.length && nums[j] == nums[i]){
+                j++;
             }
-            
+            if(j>= nums.length) {
+                break;
+            }
+            if(nums[i] > nums[j] && nums[i] > nums[j]) || nums[i] < nums[j] && nums[i] < nums[j] ) {
+                cout++;
+            }
         }
-            
         System.out.print(hill+valley);
     }
 }
