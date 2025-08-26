@@ -18,4 +18,3 @@ public class PerfectNumber {
         return sum == num;
     }  
 }
-

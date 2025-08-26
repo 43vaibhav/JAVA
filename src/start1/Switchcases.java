@@ -1,3 +1,4 @@
+
 package start1;
 
 public class Switchcases {
@@ -13,3 +14,4 @@ public class Switchcases {
         }
     }
 }
+
