@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class TransposeMatrix {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER THE NUMBER OF ROWS: ");
         int m = sc.nextInt();
+        System.out.println("ENETER THE NUMBER OF COLUMNS: ");
         int n = sc.nextInt();
         int matrix[][] = new int[m][n];
         for(int i = 0 ;i<m;i++){
@@ -12,28 +14,32 @@ public class TransposeMatrix {
             }
         }
         sc.close();
-        PrintTransposeMatrix(matrix,m,n);
+        int ans[][]= TransposeMatrix(matrix,m,n);
+        PrintMatrix(ans,m,n);
         
 
     }
-    static void PrintTransposeMatrix(int matrix[][],int m, int n){
-        for(int i = 0;i<m;i++){
-            System.out.print("[" + " ");
-            for(int j = 0;j<n;j++){
-                if(i != j){
-                    System.out.print(Swap(matrix,i,j)+ " ");
-                }
-                else{
-                    System.out.print( matrix[i][j] + " ");
-                }
-                
+    static void PrintMatrix(int arr[][],int m, int n){
+        for(int i = 0 ; i< m;i++){
+            for(int j = 0 ; j < n;j++){
+                System.out.print(arr[i][j] + " ");
             }
-            System.out.print( "]");
             System.out.println();
         }
     }
+    static int[][] TransposeMatrix(int matrix[][],int m, int n){
+        for(int i = 0 ; i< n;i++){
+            for(int j = i;j<m;j++){
+                Swap(matrix,i,j);
+            }
+        }
+        return matrix;
+        
+    }
     static int Swap(int matrix[][] , int i, int j){
         int temp = matrix[j][i];
+        matrix[j][i] = matrix[i][j];
+        matrix[i][j] = temp;
         return temp;
 
     }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AliceBobFlowerGame",
+            "request": "launch",
+            "mainClass": "leetmed.AliceBobFlowerGame",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
             "name": "GCDEvenOddSum",
             "request": "launch",
             "mainClass": "leeteasy.GCDEvenOddSum",
