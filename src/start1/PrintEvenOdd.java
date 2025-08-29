@@ -14,7 +14,9 @@ public class PrintEvenOdd {
          */
          try (Scanner Sc  = new Scanner(System.in)){
             int n = Sc.nextInt();
+            
             int i = 1;
+            
             while(i<=n) { // TRUE 
                 if(n % 2 == 0){
                     EvenPrint(n);
@@ -29,7 +31,7 @@ public class PrintEvenOdd {
             }
         }
     }
-
+    
     public static void EvenPrint(int n){
         int i = 2;
         while(i<=n){

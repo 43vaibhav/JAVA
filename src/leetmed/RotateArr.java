@@ -1,4 +1,4 @@
-package arrays;
+package leetmed;
 import java.util.Scanner;
 public class RotateArr {
     public static void main(String[] args) {

@@ -1,6 +1,11 @@
 package arrays;
 import java.util.Scanner;
 public class CheckRepeats {
+    /*
+     * First Repeating Element – GFG
+It asks: “Given an array of integers, find the first repeating element.
+ The element should occur more than once and the index of its first occurrence should be the smallest.”
+     */
     public static void main(String[] args) {
         try(Scanner sc = new Scanner(System.in)){
             int n = sc.nextInt();

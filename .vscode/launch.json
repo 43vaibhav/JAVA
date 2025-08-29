@@ -6,6 +6,181 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GCDEvenOddSum",
+            "request": "launch",
+            "mainClass": "leeteasy.GCDEvenOddSum",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Euclidean",
+            "request": "launch",
+            "mainClass": "start1.Euclidean",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PrintEvenOdd",
+            "request": "launch",
+            "mainClass": "start1.PrintEvenOdd",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "SortDiagnols",
+            "request": "launch",
+            "mainClass": "leetmed.SortDiagnols",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "RevArray",
+            "request": "launch",
+            "mainClass": "arrays.RevArray",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "MaximumArea",
+            "request": "launch",
+            "mainClass": "leeteasy.MaximumArea",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Matrixrotation",
+            "request": "launch",
+            "mainClass": "arrays.Matrixrotation",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "AlexInspection",
+            "request": "launch",
+            "mainClass": "assesments.AlexInspection",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "AlexInspection",
+            "request": "launch",
+            "mainClass": "AlexInspection",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "TransposeMatrix",
+            "request": "launch",
+            "mainClass": "leeteasy.TransposeMatrix",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PlusOne66",
+            "request": "launch",
+            "mainClass": "leeteasy.PlusOne66",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Operations2Darray",
+            "request": "launch",
+            "mainClass": "arrays.Operations2Darray",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "TwoDarraysExample",
+            "request": "launch",
+            "mainClass": "arrays.TwoDarraysExample",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "FindUniqueElement",
+            "request": "launch",
+            "mainClass": "arrays.FindUniqueElement",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "CheckSum",
+            "request": "launch",
+            "mainClass": "arrays.CheckSum",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "RangeSUm",
+            "request": "launch",
+            "mainClass": "arrays.RangeSUm",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "CheckDuplicates",
+            "request": "launch",
+            "mainClass": "arrays.CheckDuplicates",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "CheckRepeats",
+            "request": "launch",
+            "mainClass": "arrays.CheckRepeats",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PrintSubaArray",
+            "request": "launch",
+            "mainClass": "arrays.PrintSubaArray",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "OneIndexingSUm",
+            "request": "launch",
+            "mainClass": "arrays.OneIndexingSUm",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PrefixSum",
+            "request": "launch",
+            "mainClass": "arrays.PrefixSum",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PowerOf3",
+            "request": "launch",
+            "mainClass": "leeteasy.PowerOf3",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PowerOf4",
+            "request": "launch",
+            "mainClass": "leeteasy.PowerOf4",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Max69Pair",
+            "request": "launch",
+            "mainClass": "leeteasy.Max69Pair",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PerfectNumber",
+            "request": "launch",
+            "mainClass": "leeteasy.PerfectNumber",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
             "name": "Ap",
             "request": "launch",
             "mainClass": "start1.Ap",

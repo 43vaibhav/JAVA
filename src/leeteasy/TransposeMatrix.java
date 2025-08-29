@@ -16,21 +16,25 @@ public class TransposeMatrix {
         
 
     }
-
-    public static void PrintTransposeMatrix(int[][] matrix, int m , int n){
-        int transpose[][] = new int[n][m];
+    static void PrintTransposeMatrix(int matrix[][],int m, int n){
         for(int i = 0;i<m;i++){
-            for(int j = 0; j<n;j++){
-                transpose[j][i]= matrix[i][j];
-            }
-        }
-        for(int i = 0;i<n;i++){
-            for(int j = 0; j< m ;j++){
-                System.out.print(transpose[i][j]+" ");
+            System.out.print("[" + " ");
+            for(int j = 0;j<n;j++){
+                if(i != j){
+                    System.out.print(Swap(matrix,i,j)+ " ");
+                }
+                else{
+                    System.out.print( matrix[i][j] + " ");
+                }
                 
             }
+            System.out.print( "]");
             System.out.println();
         }
-       
+    }
+    static int Swap(int matrix[][] , int i, int j){
+        int temp = matrix[j][i];
+        return temp;
+
     }
 }
