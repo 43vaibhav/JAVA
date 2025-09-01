@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "sorting.SelectionSort",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "sorting.bubbleSort",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
             "name": "AliceBobFlowerGame",
             "request": "launch",
             "mainClass": "leetmed.AliceBobFlowerGame",
