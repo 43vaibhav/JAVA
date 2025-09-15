@@ -6,135 +6,36 @@
     "configurations": [
         {
             "type": "java",
-            "name": "SelectionSort",
+            "name": "QuickSort",
             "request": "launch",
-            "mainClass": "sorting.SelectionSort",
-            "projectName": "JAAVA_bb34bc61"
+            "mainClass": "QuickSort",
+            "projectName": "JAAVA_60751d18"
         },
         {
             "type": "java",
-            "name": "bubbleSort",
+            "name": "UniqueSum",
             "request": "launch",
-            "mainClass": "sorting.bubbleSort",
-            "projectName": "JAAVA_bb34bc61"
+            "mainClass": "leeteasy.UniqueSum",
+            "projectName": "JAAVA_60751d18"
         },
         {
             "type": "java",
-            "name": "AliceBobFlowerGame",
+            "name": "StringLexicographicalOrder",
             "request": "launch",
-            "mainClass": "leetmed.AliceBobFlowerGame",
-            "projectName": "JAAVA_bb34bc61"
+            "mainClass": "StringLexicographicalOrder",
+            "projectName": "JAAVA_60751d18"
         },
         {
             "type": "java",
-            "name": "GCDEvenOddSum",
+            "name": "Current File",
             "request": "launch",
-            "mainClass": "leeteasy.GCDEvenOddSum",
-            "projectName": "JAAVA_bb34bc61"
+            "mainClass": "${file}"
         },
         {
             "type": "java",
-            "name": "Euclidean",
+            "name": "App",
             "request": "launch",
-            "mainClass": "start1.Euclidean",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "PrintEvenOdd",
-            "request": "launch",
-            "mainClass": "start1.PrintEvenOdd",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "SortDiagnols",
-            "request": "launch",
-            "mainClass": "leetmed.SortDiagnols",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "RevArray",
-            "request": "launch",
-            "mainClass": "arrays.RevArray",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "MaximumArea",
-            "request": "launch",
-            "mainClass": "leeteasy.MaximumArea",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "Matrixrotation",
-            "request": "launch",
-            "mainClass": "arrays.Matrixrotation",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "AlexInspection",
-            "request": "launch",
-            "mainClass": "assesments.AlexInspection",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "AlexInspection",
-            "request": "launch",
-            "mainClass": "AlexInspection",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "TransposeMatrix",
-            "request": "launch",
-            "mainClass": "leeteasy.TransposeMatrix",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "PlusOne66",
-            "request": "launch",
-            "mainClass": "leeteasy.PlusOne66",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "Operations2Darray",
-            "request": "launch",
-            "mainClass": "arrays.Operations2Darray",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "TwoDarraysExample",
-            "request": "launch",
-            "mainClass": "arrays.TwoDarraysExample",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "FindUniqueElement",
-            "request": "launch",
-            "mainClass": "arrays.FindUniqueElement",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "CheckSum",
-            "request": "launch",
-            "mainClass": "arrays.CheckSum",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "RangeSUm",
-            "request": "launch",
-            "mainClass": "arrays.RangeSUm",
+            "mainClass": "App",
             "projectName": "JAAVA_bb34bc61"
         },
         {
@@ -153,9 +54,23 @@
         },
         {
             "type": "java",
-            "name": "PrintSubaArray",
+            "name": "CheckSum",
             "request": "launch",
-            "mainClass": "arrays.PrintSubaArray",
+            "mainClass": "arrays.CheckSum",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "FindUniqueElement",
+            "request": "launch",
+            "mainClass": "arrays.FindUniqueElement",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Matrixrotation",
+            "request": "launch",
+            "mainClass": "arrays.Matrixrotation",
             "projectName": "JAAVA_bb34bc61"
         },
         {
@@ -167,9 +82,219 @@
         },
         {
             "type": "java",
+            "name": "Operations2Darray",
+            "request": "launch",
+            "mainClass": "arrays.Operations2Darray",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
             "name": "PrefixSum",
             "request": "launch",
             "mainClass": "arrays.PrefixSum",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PrintSubaArray",
+            "request": "launch",
+            "mainClass": "arrays.PrintSubaArray",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PushZeroEnd",
+            "request": "launch",
+            "mainClass": "arrays.PushZeroEnd",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "RangeSUm",
+            "request": "launch",
+            "mainClass": "arrays.RangeSUm",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "RevArray",
+            "request": "launch",
+            "mainClass": "arrays.RevArray",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "RotateArr",
+            "request": "launch",
+            "mainClass": "arrays.RotateArr",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "SortArray",
+            "request": "launch",
+            "mainClass": "arrays.SortArray",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "SwapEvenOdd",
+            "request": "launch",
+            "mainClass": "arrays.SwapEvenOdd",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "TargetSum",
+            "request": "launch",
+            "mainClass": "arrays.TargetSum",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "TripletSum",
+            "request": "launch",
+            "mainClass": "arrays.TripletSum",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "TwoDarraysExample",
+            "request": "launch",
+            "mainClass": "arrays.TwoDarraysExample",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "AlexInspection",
+            "request": "launch",
+            "mainClass": "assesments.AlexInspection",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "ArrayRatio",
+            "request": "launch",
+            "mainClass": "hackerrankprep.ArrayRatio",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "FizzBuzz",
+            "request": "launch",
+            "mainClass": "hackerrankprep.FizzBuzz",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "hackerrankprep.HelloWorld",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "LonelyInt",
+            "request": "launch",
+            "mainClass": "hackerrankprep.LonelyInt",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "MatchingString",
+            "request": "launch",
+            "mainClass": "hackerrankprep.MatchingString",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "MinMax",
+            "request": "launch",
+            "mainClass": "hackerrankprep.MinMax",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "TimeConeversion",
+            "request": "launch",
+            "mainClass": "hackerrankprep.TimeConeversion",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "CountPairsTarget",
+            "request": "launch",
+            "mainClass": "leeteasy.CountPairsTarget",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "EarliestFinishTimee",
+            "request": "launch",
+            "mainClass": "leeteasy.EarliestFinishTimee",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "FairCandySwap",
+            "request": "launch",
+            "mainClass": "leeteasy.FairCandySwap",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "GCDEvenOddSum",
+            "request": "launch",
+            "mainClass": "leeteasy.GCDEvenOddSum",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "HillValley",
+            "request": "launch",
+            "mainClass": "leeteasy.HillValley",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Max69Pair",
+            "request": "launch",
+            "mainClass": "leeteasy.Max69Pair",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "MaxProduct",
+            "request": "launch",
+            "mainClass": "leeteasy.MaxProduct",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "MaxSumSubarray",
+            "request": "launch",
+            "mainClass": "leeteasy.MaxSumSubarray",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "MaximumArea",
+            "request": "launch",
+            "mainClass": "leeteasy.MaximumArea",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PerfectNumber",
+            "request": "launch",
+            "mainClass": "leeteasy.PerfectNumber",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PlusOne66",
+            "request": "launch",
+            "mainClass": "leeteasy.PlusOne66",
             "projectName": "JAAVA_bb34bc61"
         },
         {
@@ -188,16 +313,135 @@
         },
         {
             "type": "java",
-            "name": "Max69Pair",
+            "name": "TransposeMatrix",
             "request": "launch",
-            "mainClass": "leeteasy.Max69Pair",
+            "mainClass": "leeteasy.TransposeMatrix",
             "projectName": "JAAVA_bb34bc61"
         },
         {
             "type": "java",
-            "name": "PerfectNumber",
+            "name": "AliceBobFlowerGame",
             "request": "launch",
-            "mainClass": "leeteasy.PerfectNumber",
+            "mainClass": "leetmed.AliceBobFlowerGame",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "ReverseInteger",
+            "request": "launch",
+            "mainClass": "leetmed.ReverseInteger",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "RotateArr(1)",
+            "request": "launch",
+            "mainClass": "leetmed.RotateArr",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "SortDiagnols",
+            "request": "launch",
+            "mainClass": "leetmed.SortDiagnols",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "SumThreePower",
+            "request": "launch",
+            "mainClass": "leetmed.SumThreePower",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "ZeroFilledSubarray",
+            "request": "launch",
+            "mainClass": "leetmed.ZeroFilledSubarray",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1",
+            "request": "launch",
+            "mainClass": "pattern.Pattern1",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Pattern2",
+            "request": "launch",
+            "mainClass": "pattern.Pattern2",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Pattern3",
+            "request": "launch",
+            "mainClass": "pattern.Pattern3",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Pattern4",
+            "request": "launch",
+            "mainClass": "pattern.Pattern4",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Pattern5",
+            "request": "launch",
+            "mainClass": "pattern.Pattern5",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Pattern6",
+            "request": "launch",
+            "mainClass": "pattern.Pattern6",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Pattern7",
+            "request": "launch",
+            "mainClass": "pattern.Pattern7",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Pattern8",
+            "request": "launch",
+            "mainClass": "pattern.Pattern8",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Pattern9",
+            "request": "launch",
+            "mainClass": "pattern.Pattern9",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "sorting.SelectionSort",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "sorting.bubbleSort",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "iNSERTIONSort",
+            "request": "launch",
+            "mainClass": "sorting.iNSERTIONSort",
             "projectName": "JAAVA_bb34bc61"
         },
         {
@@ -205,6 +449,62 @@
             "name": "Ap",
             "request": "launch",
             "mainClass": "start1.Ap",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "CountDigits",
+            "request": "launch",
+            "mainClass": "start1.CountDigits",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Euclidean",
+            "request": "launch",
+            "mainClass": "start1.Euclidean",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "ExampleBreak",
+            "request": "launch",
+            "mainClass": "start1.ExampleBreak",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "ExampleContinue",
+            "request": "launch",
+            "mainClass": "start1.ExampleContinue",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Loop",
+            "request": "launch",
+            "mainClass": "start1.Loop",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "PrintEvenOdd",
+            "request": "launch",
+            "mainClass": "start1.PrintEvenOdd",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "start1.Sum",
+            "projectName": "JAAVA_bb34bc61"
+        },
+        {
+            "type": "java",
+            "name": "Swap",
+            "request": "launch",
+            "mainClass": "start1.Swap",
             "projectName": "JAAVA_bb34bc61"
         },
         {
@@ -216,198 +516,10 @@
         },
         {
             "type": "java",
-            "name": "Switch_cases",
-            "request": "launch",
-            "mainClass": "start1.Switch_cases",
-            "projectName": "JAAVA_bb34bc61"
-        },
-        {
-            "type": "java",
-            "name": "PerfectNumber",
-            "request": "launch",
-            "mainClass": "leeteasy.PerfectNumber",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "MaxSumSubarray",
-            "request": "launch",
-            "mainClass": "leeteasy.MaxSumSubarray",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "LonelyInt",
-            "request": "launch",
-            "mainClass": "hackerrankprep.LonelyInt",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "MatchingString",
-            "request": "launch",
-            "mainClass": "hackerrankprep.MatchingString",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "FizzBuzz",
-            "request": "launch",
-            "mainClass": "hackerrankprep.FizzBuzz",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "TimeConeversion",
-            "request": "launch",
-            "mainClass": "hackerrankprep.TimeConeversion",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "MinMax",
-            "request": "launch",
-            "mainClass": "hackerrankprep.MinMax",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "ArrayRatio",
-            "request": "launch",
-            "mainClass": "hackerrankprep.ArrayRatio",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Pattern9",
-            "request": "launch",
-            "mainClass": "pattern.Pattern9",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Pattern8",
-            "request": "launch",
-            "mainClass": "pattern.Pattern8",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Pattern7",
-            "request": "launch",
-            "mainClass": "pattern.Pattern7",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "TransposeMatrix",
-            "request": "launch",
-            "mainClass": "leeteasy.TransposeMatrix",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Pattern6",
-            "request": "launch",
-            "mainClass": "pattern.Pattern6",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "TransposeMatrix",
-            "request": "launch",
-            "mainClass": "TransposeMatrix",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Pattern1",
-            "request": "launch",
-            "mainClass": "pattern.Pattern1",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Pattern2",
-            "request": "launch",
-            "mainClass": "pattern.Pattern2",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Pattern3",
-            "request": "launch",
-            "mainClass": "pattern.Pattern3",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Pattern4",
-            "request": "launch",
-            "mainClass": "pattern.Pattern4",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Pattern5",
-            "request": "launch",
-            "mainClass": "pattern.Pattern5",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Ap",
-            "request": "launch",
-            "mainClass": "start1.Ap",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "HelloWorld",
-            "request": "launch",
-            "mainClass": "start1.HelloWorld",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Loop",
-            "request": "launch",
-            "mainClass": "start1.Loop",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "PrintEvenOdd",
-            "request": "launch",
-            "mainClass": "start1.PrintEvenOdd",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
-            "name": "Sum",
-            "request": "launch",
-            "mainClass": "start1.Sum",
-            "projectName": "JAAVA_da477e7c"
-        },
-        {
-            "type": "java",
             "name": "Tables",
             "request": "launch",
             "mainClass": "start1.Tables",
-            "projectName": "JAAVA_da477e7c"
+            "projectName": "JAAVA_bb34bc61"
         }
     ]
 }

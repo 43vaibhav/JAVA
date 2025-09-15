@@ -1,4 +1,5 @@
-package sorting;
+package dorting;
+
 import java.util.Scanner;
 public class SelectionSort {
     public static void main(String[] args) {
@@ -14,12 +15,10 @@ public class SelectionSort {
             for(int i = 0;i<n - 1;i++){
                 
                 int k = i;
-                int count = 0;
+                
                 for(int j = i+1;j<n;j++){
                    if(arr[j] < arr[k]){
                     k = j;
-                   
-                    count++;
                    }
                 }
                 if( k != i){
