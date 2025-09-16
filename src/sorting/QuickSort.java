@@ -1,28 +1,26 @@
 package sorting;
-//import java.util.Scanner;
+import java.util.Scanner;
 public class QuickSort {
     public static void main(String args[]){
-        //try(Scanner sc = new Scanner(System.in)){
-        System.out.println("ENTER NUMBER OF ELEMENTS:");
-        int n= 5; // sc.nextInt();
-        System.out.println();
-        System.out.println("ENTER THE ARRAY:");
-        int arr[] = {5,4,3,2,1}; //new int[n];
-        for(int i = 0 ; i< n;i++){
-            System.out.print(arr[i] + " : ");
+        try(Scanner sc = new Scanner(System.in)){
+            System.out.println("ENTER NUMBER OF ELEMENTS:");
+            int n= sc.nextInt();
+            System.out.println();
+            System.out.println("ENTER THE ARRAY:");
+            int arr[] = new int[n];
+            for(int i = 0 ; i< n;i++){
+                arr[i] = sc.nextInt();
+            }
+            System.out.println();
+            System.out.print("SORTED ARRAY:");
+            System.out.println();
+            quickSort(arr,0,n-1);
+            for(int i = 0 ;i<arr.length;i++){
+                System.out.print(arr[i] + " ");
+            }
         }
-        // int arr[] = new int[n];
-        // for(int i = 0 ; i< n;i++){
-        //     arr[i] = sc.nextInt();
-        // }
-        System.out.println();
-        System.out.print("SORTED ARRAY:");
-        quickSort(arr,0,n-1);
-        for(int i = 0 ;i<arr.length;i++){
-            System.out.println(arr[i] + " ");
-        }
-    //}
-}
+    }
+
     static void quickSort(int arr[],int st,int end){
         if(st<end){
             int pi = partition(arr,st,end);
