@@ -1,4 +1,4 @@
-package dorting;
+package sorting;
 
 import java.util.Scanner;
 public class SelectionSort {
