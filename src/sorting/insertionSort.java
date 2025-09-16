@@ -1,6 +1,6 @@
-package dorting;
+package sorting;
 import java.util.Scanner;
-=public class iNSERTIONSort {
+public class insertionSort {
     public static void main(String args[]){
         try(Scanner sc = new Scanner(System.in)){
             System.out.println("ENTER THE ARRAY SIZE:");

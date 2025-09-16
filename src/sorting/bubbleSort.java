@@ -1,4 +1,4 @@
-package dorting.sortingAlgos;
+package sorting;
 import java.util.Scanner;
 public class bubbleSort {
     public static void main(String args[]){
