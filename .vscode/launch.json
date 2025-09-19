@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RectangelOverlap",
+            "request": "launch",
+            "mainClass": "leeteasy.RectangelOverlap",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "recursion.Sum",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "Intro",
+            "request": "launch",
+            "mainClass": "recursion.Intro",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "SelectionSort",
             "request": "launch",
             "mainClass": "sorting.SelectionSort",
