@@ -1,22 +1,22 @@
 package recursion;
 import java.util.Scanner;
-public class Sum {
-    public static void main(String[] args) {
+public class Counting {
+    public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println("Print 'MY NAME IS VAIBHAV' "+ n + "TIMES:");
-        Sum(n);
+        int n= sc.nextInt();
+        System.out.print("SUM OF  "+ n+ " INTGERS IS : ");
+        System.out.print(Sum(n));
         sc.close();
     }
-    static void Sum(int n){ 
-        /*PRINTING NAME N TIMES */
-        if(n==0){
-            return;
+    static int Sum(int n){
+        /* PRINT THE SUM OF FIRST N INTEGERS */
+        int sum= 0;
+        if(n == 0){
+            return sum;
         }
-        System.out.println("MY NAME IS VAIBHAV");
-        n--;
-        Sum(n);
-        
-    }
+        sum = n + Sum(n-1);
+        return sum;
 
+
+    }
 }
