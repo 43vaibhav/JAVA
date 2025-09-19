@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Counting",
+            "request": "launch",
+            "mainClass": "recursion.Counting",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "RectangelOverlap",
             "request": "launch",
             "mainClass": "leeteasy.RectangelOverlap",
