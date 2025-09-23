@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fibonacciNum",
+            "request": "launch",
+            "mainClass": "recursion.fibonacciNum",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "isPalindrome",
+            "request": "launch",
+            "mainClass": "recursion.isPalindrome",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "isPalindromeNumber",
+            "request": "launch",
+            "mainClass": "leeteasy.isPalindromeNumber",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "CountPairsTarget",
+            "request": "launch",
+            "mainClass": "leeteasy.CountPairsTarget",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "validPalindrome",
+            "request": "launch",
+            "mainClass": "leeteasy.validPalindrome",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "stringPalindrome",
+            "request": "launch",
+            "mainClass": "recursion.stringPalindrome",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "ArrayReversal",
+            "request": "launch",
+            "mainClass": "recursion.ArrayReversal",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "recursion.Factorial",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "Count",
+            "request": "launch",
+            "mainClass": "recursion.Count",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "Counting",
             "request": "launch",
             "mainClass": "recursion.Counting",

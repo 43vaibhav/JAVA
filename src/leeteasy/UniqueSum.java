@@ -2,12 +2,7 @@ package leeteasy;
 import java.util.Scanner;
 public class UniqueSum {
     /*1304. Find N Unique Integers Sum up to Zero
-Solved
-Easy
-Topics
-premium lock icon
-Companies
-Hint
+
 Given an integer n, return any array containing n unique integers such that they add up to 0.
 
  

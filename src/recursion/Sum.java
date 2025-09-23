@@ -22,7 +22,7 @@ public class Sum {
         return sum;
     }
     static int SumP(int i,int n){
-        /*PRINTING SUM USINF PARAMETER I WHERE AFTER EAXCH CALL I BECOMES PLUS 1 */
+        /*PRINTING SUM USING PARAMETER I WHERE AFTER EAXCH CALL I BECOMES PLUS 1 */
         if(i==n){
             return i;
         }
