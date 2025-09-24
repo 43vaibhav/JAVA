@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "versionCompare",
+            "request": "launch",
+            "mainClass": "leetmed.versionCompare",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "fibonacciNum",
             "request": "launch",
             "mainClass": "recursion.fibonacciNum",
