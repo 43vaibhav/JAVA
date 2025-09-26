@@ -12,6 +12,7 @@ public class StringLexicographicalOrder {
         }
         callSorted(s,n);
         printString(s);
+        sc.close();
 
     }
     static void callSorted(String s[] , int n){

@@ -7,6 +7,7 @@ public class Factorial {
         int n = sc.nextInt();
         System.out.println("Factorial Sum of "+n+ " is: ");
         System.out.println(fact(n));
+        sc.close();
     }
     static int fact(int n){
         

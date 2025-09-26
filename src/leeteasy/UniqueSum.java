@@ -28,6 +28,7 @@ Output: [0]
         System.out.println("RESULTING SUM:");
         int ans[] = sumZero(n);
         printArray(ans);
+        sc.close();
     }
     static int[] sumZero(int n){
         int arr[] = new int[n];

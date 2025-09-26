@@ -10,6 +10,7 @@ public class CheckDuplicates {
                 nums[i] = sc.nextInt();
             }
             System.out.println(checkArray(nums));
+            
 
         }
     }
@@ -18,7 +19,7 @@ public class CheckDuplicates {
         int i = 0;
         int j = i +1;
         int unique = 1;
-        while(j< nums.length){
+        while(j< n){
             if(nums[i] == nums[j]){
                 i+=2;
                 j+=2;                

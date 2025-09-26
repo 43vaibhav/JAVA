@@ -8,6 +8,7 @@ public class isPalindrome {
         boolean ans = checkPalindrome(s,0,n);
         System.out.println("THE STRING IS A PALOINDROME: ");
         System.out.println(ans);
+        sc.close();
     }
     static boolean checkPalindrome(String s,int i, int j){
         if(i>=j){

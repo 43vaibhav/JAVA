@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrSearch",
+            "request": "launch",
+            "mainClass": "ArrayList.ArrSearch",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "arrSearch",
+            "request": "launch",
+            "mainClass": "recursion.arrSearch",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "ArraySum",
+            "request": "launch",
+            "mainClass": "recursion.ArraySum",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "CheckDuplicates",
+            "request": "launch",
+            "mainClass": "arrays.CheckDuplicates",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "EarliestFinishTimee",
+            "request": "launch",
+            "mainClass": "leeteasy.EarliestFinishTimee",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "SortDiagnols",
+            "request": "launch",
+            "mainClass": "leetmed.SortDiagnols",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "Triangles",
             "request": "launch",
             "mainClass": "leetmed.Triangles",

@@ -8,6 +8,7 @@ public class FindUniqueElement {
         for(int i = 0;i< n ;i++) {
             arr[i] =sc.nextInt();
         }
+         sc.close();
         // Arrays.sort(arr);
         // int i= 0;
         // while(i <arr.length-1) {
@@ -39,7 +40,7 @@ public class FindUniqueElement {
             }
         }
         
-    
+       
     }
 }
 

@@ -13,6 +13,7 @@ public class ZeroesAtTail {
         }
         callSolution(arr,n);
         printArray(arr);
+        sc.close();
     }
     static void callSolution(int arr[], int n){
         int j = 0;
