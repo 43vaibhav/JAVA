@@ -1,4 +1,4 @@
-package ArrayList;
+package arrayList;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class ArrSearch {

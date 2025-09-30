@@ -8,6 +8,13 @@
             "type": "java",
             "name": "ArrSearch",
             "request": "launch",
+            "mainClass": "arrayList.ArrSearch",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "ArrSearch",
+            "request": "launch",
             "mainClass": "ArrayList.ArrSearch",
             "projectName": "JAAVA_60751d18"
         },
