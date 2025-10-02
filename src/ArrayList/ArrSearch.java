@@ -2,6 +2,8 @@ package arrayList;
 import java.util.Scanner;
 import java.util.ArrayList;
 public class ArrSearch {
+    /* GIVEN AN ARRAY OF N INTEGERS AND A TAREGT ELEMENT PRINT WHETHER THAT ELEMENT EXISTS IN THE ARRAY OR NOT */
+    /*ALSO SEARCHING FOR IF AN ELEMENET IS PRESENT IN AN ELEMENT RETURN ITS INDEX  using arraylist */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER THE NUMBER OF ELEMENTS: ");
@@ -25,15 +27,19 @@ public class ArrSearch {
 
     static ArrayList<Integer> IdxSearch(int arr[], int i, int x){
         ArrayList<Integer> ans = new ArrayList<>();
+        /*CREATING AN ANS ARRAYLIST TO PUSH INDEX ADN IF BASE CASE IS TRUE RETURN IT 
+         */
         if(i == arr.length){
             return ans;
         }
+        /*CREATIG NEW ARRALSIT TO ADD ELEMENTS OTHER THAN BASE CASE */
         ArrayList<Integer> rest = IdxSearch(arr, i+1, x);
          // If current element matches, add its index
         if(arr[i] == x) {
             ans.add(i);
         }
-        // Add all indices found in the rest of the array
+        // Add all indices found in the rest of the array IN REST ARRAYLIST TO ANS ARRAYLIST
+
         ans.addAll(rest);
         
         return ans ;

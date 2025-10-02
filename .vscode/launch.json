@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringbasics",
+            "request": "launch",
+            "mainClass": "strings.stringbasics",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "stringRecursion",
+            "request": "launch",
+            "mainClass": "recursion.stringRecursion",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "ArrSearch",
             "request": "launch",
             "mainClass": "arrayList.ArrSearch",
