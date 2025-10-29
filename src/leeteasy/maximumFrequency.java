@@ -19,11 +19,12 @@ Input: nums = [1,2,3,4,5]
 Output: 5
 Explanation: All elements of the array have a frequency of 1 which is the maximum.
 So the number of elements in the array with maximum frequency is 5.*/
-java.util.Scanner;
-public class maxFrequency {
-      public static void main(String[] args) {
-            int n = 5;
-            int arr[] = {1, 2, 3, 4, 5};
-            
-      }
+
+package leeteasy;
+public class maximumFrequency {
+    public static void main(String[] args) {
+        int n = 5;
+        int arr[] = {1, 2, 3, 4, 5};
+              
+    }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumThreePower",
+            "request": "launch",
+            "mainClass": "leetmed.SumThreePower",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "numberOfBeams",
             "request": "launch",
             "mainClass": "leetmed.numberOfBeams",
