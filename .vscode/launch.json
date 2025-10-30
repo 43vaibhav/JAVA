@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotateArr",
+            "request": "launch",
+            "mainClass": "leetmed.RotateArr",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "arrayCheckSort",
+            "request": "launch",
+            "mainClass": "recursion.arrayCheckSort",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "SumThreePower",
             "request": "launch",
             "mainClass": "leetmed.SumThreePower",
