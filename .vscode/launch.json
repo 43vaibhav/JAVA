@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sneakyNumbers",
+            "request": "launch",
+            "mainClass": "leeteasy.sneakyNumbers",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "RotateArr",
             "request": "launch",
             "mainClass": "leetmed.RotateArr",
