@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "zooblin",
+            "request": "launch",
+            "mainClass": "tcs.zooblin",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "OrderIt",
+            "request": "launch",
+            "mainClass": "tcs.OrderIt",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "orderIt",
+            "request": "launch",
+            "mainClass": "tcs.orderIt",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "sneakyNumbers",
             "request": "launch",
             "mainClass": "leeteasy.sneakyNumbers",
