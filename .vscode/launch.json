@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "commonPrefix",
+            "request": "launch",
+            "mainClass": "leeteasy.commonPrefix",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "zooblin",
             "request": "launch",
             "mainClass": "tcs.zooblin",
