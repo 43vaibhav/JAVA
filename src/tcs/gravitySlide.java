@@ -111,6 +111,9 @@ The ball starts at (2, 7) with 5 units of energy.
 Gravity pulls it to (2, 5), then it slides to (4, 3) (energy left: 3).
 Gravity pulls it to (4, 1), then to (4, 0), where it stops.
 */
+package tcs;
 public class gravitySlide {
-
+    public static void main(String[] args) {
+        
+    }
 }

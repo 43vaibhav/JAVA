@@ -123,6 +123,10 @@ The below image depicts the above input.
 
 com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@721eb7df:image3.png
 
-In this scenario, no power is required, as the cable is not coiled around the rod and can be easily removed by holding both ends and pulling them simultaneously.*/public class cableWrap {
-
+In this scenario, no power is required, as the cable is not coiled around the rod and can be easily removed by holding both ends and pulling them simultaneously.*/
+package tcs;
+public class cableWrap {
+    public static void main(String[] args) {
+        
+    }
 }

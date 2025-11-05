@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boxGame",
+            "request": "launch",
+            "mainClass": "tcs.boxGame",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "Pattern1",
+            "request": "launch",
+            "mainClass": "pattern.Pattern1",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "commonPrefix",
             "request": "launch",
             "mainClass": "leeteasy.commonPrefix",

@@ -271,6 +271,9 @@ com.tcs.cv.automata.ei.middleware.DocxToHtmlConverter@38cedb7d:image9.png
 
 It can be analyzed the cube is not faulty and executing any of the instructions does not lead to solve one of the sides. Therefore, the answer is: "Not Possible"
 */
+package tcs;
 public class boxGame {
-
+    public static void main(String[] args){
+        
+    }
 }

@@ -138,6 +138,9 @@ The binary representation for 7 will be: 010001001
 
 Upon solving the expression according to the precedence, we get answer 2.
 */
+package tcs;
 public class solveTheExpression {
-
+    public static void main(String[] args) {
+        
+    }
 }
