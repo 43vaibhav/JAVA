@@ -1,16 +1,17 @@
 package pattern;
 import java.util.Scanner;
-
-public class Pattern1 {
+public class Pattern10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        for(int rows = 0;rows < n;rows++){
-            for(int star = 0; star < n;star++){
-                System.out.print(" * ");
+        int count =1;
+        for(int rows =0;rows< n;rows++){
+            for(int star = 0;star<= rows;star++){
+                System.out.print(count + " ");
             }
+            count++;
             System.out.println();
-             int row = 0;
+            
         }
     }
 }

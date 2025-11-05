@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pattern3",
+            "request": "launch",
+            "mainClass": "pattern.Pattern3",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "Pattern10",
+            "request": "launch",
+            "mainClass": "pattern.Pattern10",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "Pattern9",
+            "request": "launch",
+            "mainClass": "pattern.Pattern9",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "Pattern2",
+            "request": "launch",
+            "mainClass": "pattern.Pattern2",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "boxGame",
             "request": "launch",
             "mainClass": "tcs.boxGame",
