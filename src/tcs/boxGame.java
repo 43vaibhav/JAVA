@@ -274,6 +274,6 @@ It can be analyzed the cube is not faulty and executing any of the instructions 
 package tcs;
 public class boxGame {
     public static void main(String[] args){
-        
+        System.out.println("box game");
     }
 }

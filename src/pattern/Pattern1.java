@@ -10,7 +10,6 @@ public class Pattern1 {
                 System.out.print(" * ");
             }
             System.out.println();
-             int row = 0;
         }
     }
 }
