@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "braveSoldiers",
+            "request": "launch",
+            "mainClass": "unstop.braveSoldiers",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "publicNumber",
+            "request": "launch",
+            "mainClass": "unstop.publicNumber",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "Pattern3",
             "request": "launch",
             "mainClass": "pattern.Pattern3",
