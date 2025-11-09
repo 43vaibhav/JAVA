@@ -77,7 +77,7 @@ class publicNumber {
          * are non prime or composite
          * jsq =  25 that is larger than 17 so loop stops and 17 is prime
          */
-        for(int j = 3;j * j < i;j+= 2){
+        for(int j = 3;j * j <= i;j+= 2){
             if(i % j == 0){
                 return false;
             }
