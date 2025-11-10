@@ -1,5 +1,6 @@
 package unstop;
 
+import java.util.ArrayList;
 /*Problem Statement
 Given an array of integers, determine if it exhibits a continuous mountain and valley pattern.
 
@@ -71,7 +72,10 @@ public class mountainAndValleys {
                 stack.push("<");
             } 
         }
-        
+        ArrayList<Character> list = new ArrayList<>(stack);
+        for(int i = 0;i <list.size();i++){
+            char 
+        }
         return 0;
     }
 }
