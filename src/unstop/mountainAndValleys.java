@@ -76,6 +76,7 @@ public class mountainAndValleys {
         for(int i = 0;i <list.size();i++){
             int j = i +1;
             list.get(i)
+          //  teri ma ki chut bhsdk
         }
         return 0;
     }
