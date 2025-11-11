@@ -74,7 +74,8 @@ public class mountainAndValleys {
         }
         ArrayList<Character> list = new ArrayList<>(stack);
         for(int i = 0;i <list.size();i++){
-            char 
+            int j = i +1;
+            list.get(i)
         }
         return 0;
     }
