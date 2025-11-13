@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mountainAndValleys",
+            "request": "launch",
+            "mainClass": "unstop.mountainAndValleys",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "braveSoldiers",
             "request": "launch",
             "mainClass": "unstop.braveSoldiers",

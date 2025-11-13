@@ -61,22 +61,22 @@ public class mountainAndValleys {
         if (arr.length == 1){
             return 1;
         }
-        Stack<String> stack = new Stack();
+        ArrayList<Character> pattern = new ArrayList<>();
         for(int i =0; i< arr.length -1;i ++){
             int j = arr[i+1];
             
             if(arr[i]>arr[j]){
-                stack.push(">");
+                pattern.add('>');
             }
             else{
-                stack.push("<");
+                pattern.add('<');
             } 
         }
-        ArrayList<Character> list = new ArrayList<>(stack);
-        for(int i = 0;i <list.size();i++){
-            int j = i +1;
-            list.get(i)
-          
+        
+        for(int i = 0;i <pattern.size()-1;i++){
+            if(pattern.get(i) == pattern.get(i+1)){
+                return 0;
+            }
         }
         return 0;
     }
