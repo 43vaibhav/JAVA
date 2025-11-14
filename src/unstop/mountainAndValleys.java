@@ -1,6 +1,6 @@
 package unstop;
 
-import java.util.ArrayList;
+
 /*Problem Statement
 Given an array of integers, determine if it exhibits a continuous mountain and valley pattern.
 
@@ -45,6 +45,7 @@ Explanation
 1 -> 2 -> 1 -> 2 -> 1
 As values consistently alternate between increasing and decreasing. So the answer is 1 */
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class mountainAndValleys {
     public static void main(String[] args) {
@@ -61,15 +62,15 @@ public class mountainAndValleys {
         if (arr.length == 1){
             return 1;
         }
-        ArrayList<Character> pattern = new ArrayList<>();
+        ArrayList<Integer> pattern = new ArrayList<>();
         for(int i =0; i< arr.length -1;i ++){
             int j = arr[i+1];
             
-            if(arr[i]>arr[j]){
-                pattern.add('>');
+            if(arr[i] - arr[j] > 0){
+                pattern.add(-1);
             }
             else{
-                pattern.add('<');
+                pattern.add(1);
             } 
         }
         
