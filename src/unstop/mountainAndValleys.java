@@ -73,7 +73,7 @@ public class mountainAndValleys {
                 pattern.add(1);
             } 
         }
-        
+        //lets see
         for(int i = 0;i <pattern.size()-1;i++){
             if(pattern.get(i) == pattern.get(i+1)){
                 return 0;
