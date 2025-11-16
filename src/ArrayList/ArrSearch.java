@@ -27,7 +27,7 @@ public class ArrSearch {
 
     static ArrayList<Integer> IdxSearch(int arr[], int i, int x){
         ArrayList<Integer> ans = new ArrayList<>();
-        /*CREATING AN ANS ARRAYLIST TO PUSH INDEX ADN IF BASE CASE IS TRUE RETURN IT 
+        /*CREATING AN ANS ARRAYLIST TO PUSH INDEX AND IF BASE CASE IS TRUE RETURN IT 
          */
         if(i == arr.length){
             return ans;
