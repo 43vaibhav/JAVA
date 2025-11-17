@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "kLengthApart",
+            "request": "launch",
+            "mainClass": "leeteasy.kLengthApart",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
+            "name": "kLenghtApart",
+            "request": "launch",
+            "mainClass": "leeteasy.kLenghtApart",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "incrementSubmatricesByOne",
             "request": "launch",
             "mainClass": "leetmed.incrementSubmatricesByOne",
