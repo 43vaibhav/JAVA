@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arrayConcatenation",
+            "request": "launch",
+            "mainClass": "leeteasy.arrayConcatenation",
+            "projectName": "JAAVA_60751d18"
+        },
+        {
+            "type": "java",
             "name": "kLengthApart",
             "request": "launch",
             "mainClass": "leeteasy.kLengthApart",
