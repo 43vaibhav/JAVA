@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile and Run Current Java File",
+      "type": "shell",
+      "command": "javac -d bin (Get-ChildItem -Recurse src -Filter *.java).FullName; java -cp bin ${relativeFileDirname/\\\\/.}.${fileBasenameNoExtension}",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    }
+  ]
+}
