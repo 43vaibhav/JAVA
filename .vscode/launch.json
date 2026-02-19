@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "totalOdds",
+            "request": "launch",
+            "mainClass": "leeteasy.totalOdds",
+            "projectName": "JAVA_ab334256"
+        },
+        {
+            "type": "java",
             "name": "arrayConcatenation",
             "request": "launch",
             "mainClass": "leeteasy.arrayConcatenation",

@@ -53,6 +53,7 @@ public class sneakyNumbers {
         System.out.println("Find the mischievous elements: ");
         int ans[] = getSneakyElements(nums);
         printArray(ans);
+        sc.close();
     }
     static int[] getSneakyElements(int nums[]){
         ArrayList<Integer> ans = new ArrayList<>();

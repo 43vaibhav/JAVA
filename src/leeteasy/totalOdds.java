@@ -27,15 +27,24 @@ public class totalOdds {
         int low = sc.nextInt();
         int high = sc.nextInt();
         if (high - low > 100){
-            optimisedMethod(low,high);
+            System.out.print(optimisedMethod(low,high));
         }
         else{
-            bruteForce(low,high);
+            System.out.print(bruteForce(low,high));
         }
     }
-    static int bruteForce(int low,int high){
+    static int bruteForce(int low, int high){
         int count = 0;
-        
+        for(int i =low;i<=high;i++){
+            if(i% 2 != 0){
+                count++;
+            }
+        }
+        return count;
+    }
+    static int optimisedMethod(int low, int high){
+        int count = ((high + 1) /2 )- (low/2);
+        return count;
     }
 
 }
