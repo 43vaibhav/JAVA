@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "diagonalDifference",
+            "request": "launch",
+            "mainClass": "hackerrankprep.diagonalDifference",
+            "projectName": "JAVA_ab334256"
+        },
+        {
+            "type": "java",
             "name": "totalOdds",
             "request": "launch",
             "mainClass": "leeteasy.totalOdds",
