@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pattern1",
+            "request": "launch",
+            "mainClass": "pattern.Pattern1",
+            "projectName": "JAVA_ab334256"
+        },
+        {
+            "type": "java",
+            "name": "Pattern4",
+            "request": "launch",
+            "mainClass": "pattern.Pattern4",
+            "projectName": "JAVA_ab334256"
+        },
+        {
+            "type": "java",
+            "name": "plusMinus",
+            "request": "launch",
+            "mainClass": "hackerrankprep.plusMinus",
+            "projectName": "JAVA_ab334256"
+        },
+        {
+            "type": "java",
             "name": "diagonalDifference",
             "request": "launch",
             "mainClass": "hackerrankprep.diagonalDifference",

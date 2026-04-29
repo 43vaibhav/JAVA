@@ -12,24 +12,19 @@ public class Pattern4 {
              *  
              */
             int n = sc.nextInt();
-            int row = 0 ;
-            while(row<n){
-                int space = n -1;
-                while(space>row){
-                    System.out.print("A ");
-                    space--;
+            
+            for(int row = 0;row< n;row++){
+                for(int space = 0;space < n - row;space--){
+                    System.out.print("  ");
                 }
-                int star= 0;
-                while(star<=row){
-                    System.out.print("* ");
-                    star++;
+                for(int star =n-row;star++){
+                    System.out.print("*  ");
+
                 }
-                row++;
+                
                 System.out.println();
+
             }
         }
-    
     }
-    
-
 }
